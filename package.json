@@ -3,10 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "nuxi dev --host 0.0.0.0",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview --host 0.0.0.0"
+    "dev": "bun ./node_modules/nuxt/bin/nuxt.mjs dev --host 0.0.0.0",
+    "build": "bun ./node_modules/nuxt/bin/nuxt.mjs build",
+    "generate": "bun ./node_modules/nuxt/bin/nuxt.mjs generate",
+    "preview": "bun ./node_modules/nuxt/bin/nuxt.mjs preview --host 0.0.0.0"
   },
   "dependencies": {
     "nuxt": "latest",
