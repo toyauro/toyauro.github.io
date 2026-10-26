@@ -71,7 +71,7 @@ const logs = [
     </section>
 
     <footer>
-      built with Nuxt + Bun on a phone · deployed to GitHub Pages · <a href="https://github.com/toyauro">@toyauro</a>
+      built with Nuxt + Bun on a phone · deployed to GitHub Pages · <a href="https://github.com/toyauro">@toyauro</a> · <a href="https://toyauro.github.io/slides/">slides</a>
     </footer>
   </main>
 </template>
